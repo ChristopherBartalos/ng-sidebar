@@ -36,8 +36,8 @@
     "prepare": "npm run build"
   },
   "peerDependencies": {
-    "@angular/core": ">=8.0.0",
-    "@angular/common": ">=8.0.0"
+    "@angular/common": ">=8.0.0",
+    "@angular/core": ">=8.0.0"
   },
   "devDependencies": {
     "@angular/common": "^8.2.14",
@@ -49,6 +49,9 @@
     "rxjs": "^6.5.5",
     "tslint": "^5.20.1",
     "typescript": "~3.4.0",
-    "zone.js": "~0.9.1"
+    "zone.js": "^0.13.3"
+  },
+  "dependencies": {
+    "@angular-devkit/schematics": "^16.2.4"
   }
 }
